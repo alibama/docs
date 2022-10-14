@@ -65,4 +65,4 @@ Any organization which does not wish to use the [on-chain census mechanism](on-c
 
 The Gateways deployed by Vocdoni and third parties constantly monitor the [Process Smart Contract](smart-contracts/process.md). Upon identifying a new process, they will fetch and import that process' Census Merkle Tree. At this point, users can use any available Gateway to check whether they are eligible for voting and then fetch their Merkle Proof (this as well may be handled by the client implementation)
 
-Users with a valid Merkle Proof can efficiently show that their key belongs to a large census by providing a very small fraction of the whole tree.
+Users with a valid Merkle Proof can efficiently show that their key belongs to a large census by providing a small fraction of the whole tree.
