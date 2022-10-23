@@ -14,7 +14,7 @@ Smart contracts are a piece of immutable code running on a decentralized blockch
 General purpose blockchains are slow and hard to scale, so they are only used to signal and declare parameters of organizations and governance processes. The following contracts are used:
 
 * **ENS Resolver**
-	* Similarly to DNS Text Records, the ENS Resolver is used as a global key-value store for entities
+	* Similar to DNS Text Records, the ENS Resolver is used as a global key-value store for entities
     * Organizations can declare the origin to their metadata, among other values
 * **Process**
     * Global registry of governance processes created by entities
@@ -51,7 +51,7 @@ On the Ethereum side, it can also compute the results and submit them to the pro
 
 Oracles are neutral and their role effectively allows for a Layer 2 governance that eventually triggers binding results on the Layer 1.
 
-Currently, oracles are implemented as a trusted node. However, our design and roadmap point us to a scenario where oracles increasingly become trustless parties, by simply signaling signed events or relaying results using ZK Rollups.
+Currently oracles are implemented as a trusted node. Our design and roadmap, however, point us to a scenario where oracles increasingly become trustless parties by signaling signed events or relaying results using ZK Rollups.
 
 ### Gateway
 
